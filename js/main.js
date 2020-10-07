@@ -28,7 +28,6 @@ window.onload = function () {
   time = 1000 / amount
 
   // Will execute generateShape every 1 seconds 
-  console.log(time)
   window.setInterval(generateShape, time);
 
   app.ticker.add(gameLoop)
@@ -90,11 +89,8 @@ function minusGravity() {
 }
 
 function generateShape(x, y) {
-  console.log(amount)
-
   time = 1000 / amount
 
-  console.log(time)
   // triangle
   let triangle = new PIXI.Graphics();
   triangle.beginFill("0x" + Math.floor(Math.random() * 16777215).toString(16)); // black color
