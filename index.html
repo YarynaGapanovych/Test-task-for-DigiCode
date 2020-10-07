@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigiCode Pixi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/pixi.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>PIXI</h1>
+    <div class="info">
+      <div class="number-of-shapes" id="number-of-shapes">Number of current shapes: 0</div>
+      <div class="area">Surface area occupied by the shapes: 0 px^2</div>
+    </div>
+    <div class="pixi-field" id="gameDiv"></div>
+    <div class="buttons">
+      <div class="num-sec">
+        <div class="num-sec-value" id="num-sec-value">Number of shapes per sec: 1</div>
+        <button class="minus" id="num-sec-minus" onclick="minusAmount()">-</button>
+        <button class="plus" id="num-sec-plus" onclick="plusAmount()">+</button>
+      </div>
+      <div class="gravity">
+        <div class="gravity-value" id="gravity-value">Gravity Value: 1</div>
+        <button class="minus" id="gravity-minus" onclick="minusGravity()">-</button>
+        <button class="plus" id="gravity-plus" onclick="plusGravity()">+</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

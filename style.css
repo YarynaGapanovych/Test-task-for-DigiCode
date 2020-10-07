@@ -1,0 +1,60 @@
+body {
+  display: flex;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+.info {
+  display: flex;
+}
+
+.number-of-shapes, .area {
+  padding: 5px 10px;
+  border: 4px solid #f8f8f8;
+  border-bottom: none;
+}
+
+.number-of-shapes {
+  border-right: none;
+}
+
+.pixi-field {
+  width: 100%;
+  /* height: 80vh; */
+}
+
+.buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.minus, .plus {
+  color: blue;
+  font-size: 32px;
+  width: 60px;
+  background: #ffffff;
+  border: 2px solid rgb(49, 48, 48);
+  margin-top: 10px;
+}
+
+.minus:focus, .plus:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+.minus {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.plus {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: -5px;
+}
+
+.num-sec, .gravity {
+  padding: 0 30px;
+}
